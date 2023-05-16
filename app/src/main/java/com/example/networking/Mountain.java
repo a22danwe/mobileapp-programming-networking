@@ -8,11 +8,11 @@ public class Mountain {
     private String location;
     private int height;
 
-    public Mountain(String name, String location, int height) {
+    public Mountain(String name, String location, int size) {
 
         this.name = name;
         this.location = location;
-        this.height = height;
+        this.height = size;
     }
 
     public String toString() {
