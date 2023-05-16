@@ -26,7 +26,7 @@ function errorCallback(error) {
             break;
         case error.UNKNOWN_ERROR:
             // Okänt fel, gör något
-            break;
+            break
     }
 }
 ```
