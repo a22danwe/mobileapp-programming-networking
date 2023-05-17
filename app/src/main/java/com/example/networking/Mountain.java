@@ -6,17 +6,17 @@ public class Mountain {
 
     private String name;
     private String location;
-    private int height;
+    private int size;
 
     public Mountain(String name, String location, int size) {
 
         this.name = name;
         this.location = location;
-        this.height = size;
+        this.size = size;
     }
 
     public String toString() {
-        String tmp = name + " " + location + " " + height;
+        String tmp = name + " " + location + " " + size;
 
         return tmp;
     }
