@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new JsonTask(this).execute(JSON_URL);
+        new JsonFile(this, this).execute(JSON_FILE);
 
 
     }
